@@ -235,3 +235,78 @@ span+span {
         transform: scale(1);
     }
 }
+
+
+/* Home */
+
+.home {
+    background-color: var(--jet);
+    width: 100%;
+    height: auto;
+}
+
+.container_image_home {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 12rem 0 5rem 0;
+}
+
+.image_home {
+    max-width: 65%;
+    transition: .4s;
+    animation: image 2s;
+}
+
+.home_info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.home_text-1 {
+    font-family: 'Cooper Hewitt';
+    color: var(--white);
+    font-size: 2rem;
+}
+
+.home_text-2 {
+    font-family: 'PT Sans';
+    color: var(--beaver);
+    font-size: 3.2rem;
+    margin-bottom: 1rem;
+}
+
+.home_text-3 {
+    font-family: 'Cooper Hewitt';
+    color: var(--white);
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    width: 28rem;
+    margin: 0 auto;
+    text-align: start;
+}
+
+.text-type {
+    position: relative;
+}
+
+.text-type::after {
+    content: '|';
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    color: var(--beaver);
+    background-color: var(--jet);
+    width: 100%;
+    animation: typing 4s steps(28) alternate infinite;
+}
+
+@keyframes typing {
+    to{
+        width: 0%;
+    }
+}
