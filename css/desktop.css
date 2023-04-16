@@ -240,7 +240,7 @@ span+span {
 /* Home */
 
 .home {
-    background-color: var(--jet);
+    background-color: white;
     width: 100%;
     height: auto;
 }
@@ -250,7 +250,7 @@ span+span {
     height: auto;
     display: flex;
     justify-content: center;
-    padding: 12rem 0 5rem 0;
+    padding: 12rem 0 1rem 0;
 }
 
 .image_home {
@@ -266,28 +266,28 @@ span+span {
     text-align: center;
 }
 
-.home_text-1 {
-    font-family: 'Cooper Hewitt';
-    color: var(--white);
-    font-size: 2rem;
+.home_text_1 {
+    font-family: var(--Roboto);
+    color: var(--titulo);
+    font-size: 3rem;
 }
 
-.home_text-2 {
-    font-family: 'PT Sans';
-    color: var(--beaver);
-    font-size: 3.2rem;
+.home_text_2 {
+    font-family: var(--titulo);
+    color: var(--magenta);
+    font-size: 3.6rem;
     margin-bottom: 1rem;
+    
 }
 
-.home_text-3 {
-    font-family: 'Cooper Hewitt';
-    color: var(--white);
+.home_text_3 {
+    font-family: var(--titulo);
+    color: black;
     font-size: 1.4rem;
     text-transform: uppercase;
     letter-spacing: .2rem;
     width: 28rem;
     margin: 0 auto;
-    text-align: start;
 }
 
 .text-type {
@@ -299,8 +299,8 @@ span+span {
     font-weight: bold;
     position: absolute;
     right: 0;
-    color: var(--beaver);
-    background-color: var(--jet);
+    color: black;
+    background-color: white;
     width: 100%;
     animation: typing 4s steps(28) alternate infinite;
 }
@@ -309,4 +309,39 @@ span+span {
     to{
         width: 0%;
     }
+}
+
+.container_parrafo_info, .contact_button{
+    display: none;
+}
+
+.cv_button {
+    background-color: var(--magenta);
+    border-radius: 3rem;
+    padding: .6rem 2rem .5rem 2rem;
+    color: white;
+    font-family: var(--titulo);
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin: 2rem 0;
+    border: none;
+    cursor: pointer;
+}
+
+.cv_button:hover {
+    background: var(--me);
+    box-shadow: 0px 2px 10px #141414;
+    transition: 1s transform;
+}
+
+.links{
+    display: flex;
+    justify-content:center;
+}
+
+.links img{
+    width: 2.4rem;
+    margin: 0 0.5rem;
 }

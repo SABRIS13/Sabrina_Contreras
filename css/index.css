@@ -7,7 +7,7 @@
 html {
     font-size: 62.5%;
     scrollbar-width: thin;
-    scrollbar-color: var(--magenta) var(--pinky);
+    scrollbar-color: var(--magenta) var(--gris);
     scroll-behavior: smooth;
 }
 
@@ -18,7 +18,7 @@ html::-webkit-scrollbar-track {
     background-color: var(--pinky);
 }
 html::-webkit-scrollbar-thumb {
-    background-color: var(--violet);;
+    background-color: var(--violet);
 }
 ::selection {
     background-color: var(--selection);
@@ -62,7 +62,7 @@ nav.nav_menu a:hover,
 nav.nav_menu a.active {
     color: var(--pinky);
     padding: .5rem;
-    border-bottom: 1px solid var(--pinky);
+    border-bottom: 2px solid var(--pinky);
     transition: all .5s;
 }
 
@@ -138,6 +138,7 @@ main{
     margin-top: 6rem;
 }
 
+
 .home_text_1 {
     font-size: 3.5rem;
     font-weight: bold;
@@ -163,6 +164,23 @@ main{
     font-family: var(--titulo);
     color:black;
     text-transform: uppercase;
+}
+
+.text_type::after {
+    content: '|';
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    color: black;
+    background-color: white;
+    width: 100%;
+    animation: typing 4s steps(28) alternate infinite;
+}
+
+@keyframes typing {
+    to{
+        width: 0%;
+    }
 }
 
 
