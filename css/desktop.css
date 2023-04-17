@@ -7,18 +7,18 @@
 html {
     font-size: 62.5%;
     scrollbar-width: thin;
-    scrollbar-color: var(--magenta) var(--violet);
+    scrollbar-color: var(--magenta) var(--pinky);
     scroll-behavior: smooth;
 }
 
 html::-webkit-scrollbar {
-    width: 8px;
+    width: 1rem;
 }
 html::-webkit-scrollbar-track {
     background-color: var(--magenta);
 }
 html::-webkit-scrollbar-thumb {
-    background-color: var(--violet);;
+    background-color: var(--pinky);;
 }
 ::selection {
     background-color: var(--roll);
@@ -339,6 +339,7 @@ span+span {
 .links{
     display: flex;
     justify-content:center;
+    margin-bottom: 4rem;
 }
 
 .links img{
@@ -347,28 +348,50 @@ span+span {
 }
 
 /* Sobre mi*/
-.sobreMi {
+.sobre_mi {
     padding: 0 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: var(--gris);
+}
+.sobre_mi h1{
+    display: block;
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    letter-spacing: 0.1rem;
+    padding-top:6rem;
+    color:var(--violeta);
+    font-family: var(--titulo);
+    text-align: center;
 }
 
-.container_content-sobreMi {
+.container_total_sobre_mi {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.container_texto-sobreMi {
-    padding: 4rem;
+.container_texto_sobre_mi {
+    padding: 2rem;
 }
 
-.title_sobreMi {
-    font-size: 3rem;
+.title_sobre_mi {
+    text-align: center;
+    display: block;
+    color: var(--me);
+    font-family: var(--titulo); 
+    font-weight: bold;
+    font-size: 2.8rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 2rem;
 }
 
-.texto_sobreMi {
+.texto_sobre_mi {
+    color: black;
+    font-family: var(--Roboto);
+    display: flex;
+    text-align: justify;
     font-size: 1.8rem;
     line-height: 2.5rem;
 }
@@ -382,7 +405,13 @@ span+span {
 }
 
 .img_sobre_mi {
-    width: 65%;
+    width: 60%;
     margin-bottom: 5rem;
     border-bottom: 2px solid var(--jet);
+}
+
+/* Habilidades */
+
+.cards_container_habilidades {
+    column-gap: 4rem;
 }
