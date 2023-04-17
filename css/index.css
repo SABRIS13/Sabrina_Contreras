@@ -136,6 +136,7 @@ main{
     letter-spacing: .2rem;
     text-align: start;
     margin-top: 6rem;
+    justify-content: center;
 }
 
 
@@ -166,13 +167,19 @@ main{
     text-transform: uppercase;
 }
 
+.text_type{
+    position: relative;
+}
+
 .text_type::after {
     content: '|';
     font-weight: bold;
     position: absolute;
     right: 0;
-    color: black;
+    color: var(--magenta);
     background-color: white;
+    font-size: 1.8rem;
+    letter-spacing: 0.2rem;
     width: 100%;
     animation: typing 4s steps(28) alternate infinite;
 }
@@ -182,7 +189,6 @@ main{
         width: 0%;
     }
 }
-
 
 .container_parrafo_info {
     display: inline-block;
@@ -259,4 +265,75 @@ main{
 .links img {
     margin: .7rem 0 .7rem 0;
     width: 2.4rem;
+}
+
+/*Sobre mí*/
+
+.sobre_mi{
+    background-color: var(--gris);
+    padding-bottom:4rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sobre_mi h1{
+    display: block;
+    margin-top: 2rem;
+    font-size: 3.2rem;
+    letter-spacing: 0.1rem;
+    padding-top:6rem;
+    color:var(--violeta);
+    font-family: var(--titulo);
+    text-align: center;
+}
+
+.container_total_sobre_mi{
+    flex-direction: row-reverse;
+    display: flex;
+    align-items: center;
+}
+
+.container_texto_sobre_mi{
+    display: flex;
+    flex-direction: column;
+    width:70%;
+    padding: 0 5rem 0 3rem; 
+}
+
+.title_sobre_mi{
+    text-align: start;
+    display: flex;
+    color: var(--me);
+    font-family: var(--titulo); 
+    font-weight: bold;
+    font-size: 3rem;
+    letter-spacing: 0.3rem;
+    margin-bottom: 2rem;
+}
+
+.texto_sobre_mi{
+    color: black;
+    font-family: var(--Roboto);
+    text-align: start;
+    font-size: 1.8rem;
+    letter-spacing: .2rem;
+    line-height: 2.8rem;
+}
+
+.container_img_sobre_mi{
+    margin-top:2rem;
+    height: auto;
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+
+.img_sobre_mi{
+    width: 65%;
+    margin-bottom: 5rem;
+    border-bottom: 2px solid var(--magenta);
 }
