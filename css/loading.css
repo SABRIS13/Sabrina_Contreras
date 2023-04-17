@@ -10,7 +10,7 @@ html {
 }
 
 .container_load{
-    background-color: var(--me);
+    background-color: white;
     position: fixed;
     width: 100vw;
     height: 100vh;

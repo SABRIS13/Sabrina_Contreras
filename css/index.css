@@ -356,7 +356,7 @@ main{
     letter-spacing: 0.1rem;
     font-family: var(--titulo);
     font-weight: bold;
-    color:var(--me);
+    color:var(--pinky);
 }
 
 .cards_container_habilidades {
