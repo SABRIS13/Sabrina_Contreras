@@ -500,3 +500,122 @@ span+span {
 .cards_container_habilidades {
     column-gap: 4rem;
 }
+
+/*_____Formación_____*/
+
+.formacion {
+    background-color:var(--gris);
+    width: 100%;
+    height: auto;
+    padding-bottom: 2rem;
+    position: relative;
+}
+
+.formacion h1 {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color: var(--violeta);
+    font-family:var(--titulo);
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    padding: 5rem 0;
+}
+.formacion h2 {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    color: var(--violeta);
+    font-family:var(--titulo);
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    padding: 0 0 3rem 0;
+}
+
+.cards_container_formacion {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 2rem 3rem 2rem;
+}
+
+.cards_formacion {
+    background-color:white;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 32rem;
+    height: 33rem;
+    margin: 0 1rem 3rem 1rem;
+    justify-content: space-between;
+}
+
+.cards_formacion img {
+    width: 25rem;
+}
+
+.logo_devf{
+    margin:9rem 0;
+}
+
+.logo_inroads{
+    margin:2rem;
+}
+
+.logo_one_next_education, .logo_tec{
+    margin:6rem 0;
+}
+
+.logo_tecnolochicas{
+    margin:5rem 0;
+}
+.container_texto_formacion {
+    margin-bottom: 1.3rem;
+}
+
+
+.cards_formacion p:nth-child(1) {
+    color: var(--magenta);
+    font-family:var(--titulo);
+    letter-spacing: .1rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: .7rem;
+}
+
+.cards_formacion p:nth-child(2) {
+    color: var(--violeta);
+    font-family: var(--titulo);
+    font-weight: bold;
+    letter-spacing: .1rem;
+    font-size: 1.4rem;
+}
+
+.cards_formacion:hover {
+    border: 1px solid var(--pinky);
+    box-shadow: 0 10px 16px -6px rgb(5 5 5 / 30%), 0 25px 10px -24px rgb(5 5 5 / 10%);
+    transform: scale(1.1);
+    transition: .4s all;
+}
+
+.cards_container_insignias{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 0 2rem 3rem 2rem;   
+}
+
+.insignia_js ,.insignia_analisis, .insignia_principiante{
+    width: 18rem;
+    margin:2rem 0;
+}
+.credencial_gcp{
+    width: 16rem;
+}
