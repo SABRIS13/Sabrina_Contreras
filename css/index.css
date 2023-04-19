@@ -220,7 +220,7 @@ main{
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     cursor:pointer;
-    margin:2rem 0 2rem 1rem;
+    margin:2rem 0 2rem 0rem;
     transition: 0.3s;
 }
 
@@ -717,8 +717,8 @@ main{
 }
 
 .container_text_contacto p {
-    font-size: 1.6rem;
-    font-family: var(--Roboto);
+    font-size: 1.4rem;
+    font-family:var(--titulo);
     color: white;
     margin-bottom: 3rem;
     letter-spacing: 1px;
@@ -839,7 +839,7 @@ footer {
 
 .container_text_footer span {
     font-family: var(--titulo);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     letter-spacing: 1px;
     color: black;
     font-weight: bold;
@@ -860,7 +860,7 @@ footer {
 .go_top_button {
     width: 0rem;
     height: 0rem;
-    background: rgba(167, 137, 118, 1);
+    background: var(--pinky);
     box-shadow: 0px 6px 22px -6px rgba(0,0,0,0.75);
     border-radius: 50%;
     cursor: pointer;
