@@ -57,9 +57,10 @@ nav.nav_menu.active {
     position: absolute;
     left: 0;
     top: 6.3rem;
-    width: 100%;
+    width: 50%;
+    margin-left:50%;
     height: auto;
-    background-color: var(--dark);
+    background-color: white;
     box-shadow: 0 10px 16px -6px rgb(5 5 5 / 30%), 0 25px 10px -24px rgb(5 5 5 / 10%);
     animation: ease .4s left forwards;
 }
@@ -72,6 +73,15 @@ nav.nav_menu.active {
     100% {
         left: 0;
     }
+}
+
+@media screen and (max-width:600px)  {
+    nav.nav_menu.active {
+        width: 100%;
+        margin-left: 0;
+    }
+   
+
 }
 
 nav.nav_menu.active a {
@@ -87,7 +97,7 @@ nav.nav_menu.active a {
 
 nav.nav_menu.active a:hover {
     color: var(--lavanda);
-    background-color: black;
+    background-color: var(--gris);
     transition: all .4s;
 }
 
@@ -107,6 +117,10 @@ nav.nav_menu.active .idioma_item {
     margin: 0 .3rem;
     filter: contrast(65%);
     cursor: pointer;
+}
+
+nav.nav_menu.active .idioma_item img {
+    width: 4rem;
 }
 
 nav.nav_menu.not-active .idioma {
