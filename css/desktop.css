@@ -866,6 +866,7 @@ span+span {
     font-size: 1.4rem;
     font-family: var(--titulo);
     color: white;
+    font-weight: bold;
     margin-bottom: 3rem;
     letter-spacing: 1px;
     line-height: 2.3rem;
@@ -878,7 +879,7 @@ span+span {
     width: 100%;
     padding: 1rem;
     border-radius: 1rem;
-    color: white;
+    color: black;
     font-size: 1.6rem;
     outline: none;
     margin-bottom: 2rem;
@@ -896,12 +897,12 @@ span+span {
 
 .form_contact textarea {
     background: transparent;
-    border: 2px solid var(--contacto);
+    border: 2px solid var(--lavanda);
     font-family: var(--Roboto);
     width: 100%;
     padding: 1rem;
     border-radius: 1rem;
-    color: white;
+    color: black;
     font-size: 1.6rem;
     outline: none;
     margin-bottom: 3rem;
