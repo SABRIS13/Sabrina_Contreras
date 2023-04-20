@@ -1,0 +1,58 @@
+{
+    "menu": {
+        "item2": "Inicio",
+        "item3": "Habilidades",
+        "item4": "Formación",
+        "item5": "Proyectos",
+        "item6": "Contacto"
+    },
+    "home": {
+        "home_text_1": "Hola! Soy",
+        "home_text_3": "Data Scientist & Desarrolladora Front-end",
+        "parrafo_info": "Ingeniera en Energías Renovables, con experiencia en la generación de proyectos energéticos. Actualmente me estoy especializando en Ciencia de Datos y Desarrollo Front‑End. Me apasiona resolver enigmas y descubrir nuevas cosas analizando datos e identificando patrones.",
+        "cv_button": "Descargar CV",
+        "contact_button": "Contacto"
+    },
+    "sobre_mi": {
+        "title": "Sobre mí",
+        "texto_sobre_mi": "Soy ingeniera en Energías Renovables y futura Científica de Datos. Siempre estoy buscando maneras de superarme y aprender más, es por ello que me he tomado cursos en Análisis de Datos, Desarrollo Front-End y Gestión de Proyectos. <br> <br> Soy una persona creativa, autodidáctica y perceptiva de su entorno, que le gusta buscar soluciones creativas a problemáticas de este. Razón de lo anterior he participado en veranos científicos de la investigación, y otros concursos relacionados a la sustentabilidad e inclusión." 
+    },
+    "habilidades": {
+        "title": "Habilidades"
+    },
+    "formacion": {
+        "title": "Formación",
+        "formacion_1": "Máster Data Science/AI",
+        "tiempo-formacion_1": "2022 - 2023",
+        "formacion_2": "Desarrollo Web Full-Stack",
+        "tiempo-formacion_2": "2022 - 2023",
+        "formacion_3": "Tecnolochicas PRO",
+        "tiempo-formacion_3": "2023",
+        "formacion_4":"Crece con Google Mujeres en STEM",
+        "tiempo-formacion_4":"2022",
+        "formacion_5":"Ingeniera en Energías Renovables",
+        "tiempo-formacion_5":"2017-2021",
+        "insignia":"Insignias"
+    },
+    "proyectos": {
+        "title": "Proyectos",
+        "title_proyecto_1": "Juego del Ahorcado: Vaqueros",
+        "info_proyecto_1": "Juego donde el usuario debe adivinar la palabra secreta antes de que el vaquero se encuentre en la horca, se incluye la opción de agregar nuevas palabras.",
+        "title_proyecto_2": "Librería Olimpo",
+        "info_proyecto_2": "Página web de la librería Olimpo: Descubre nuevos mundos en los libros, en la cual el lector puede ver el catalogo de productos así como su ubicación.",
+        "title_proyecto_3": "Encriptador",
+        "info_proyecto_3": "Aplicación que encripta textos, para poder intercambiar mensajes secretos con otras personas que sepan el código secreto.",
+        "title_proyecto_4": "ML: Ubicación de Sushi",
+        "info_proyecto_4": "Determinación de la localización ideal para un restaurante de sushi en Culiacán, Sinaloa a través de un modelado no supervisado de ML.",
+        "title_proyecto_5": "Sirius Major Access",
+        "info_proyecto_5": "Modelo de nueva aplicación movil de BBVA accesible a las necesidades de todos con la implementación de token único para autenticación. Trabajo presentado en el Hackathon 2022 de BBVA.",
+        "title_proyecto_6": "Analisis de Forbes Atletas",
+        "info_proyecto_6": "Analisis de los atletas mejor pagados del mundo en el periodo de 1990 a 2020 por nacionalidad, deporte y ganancias monetaria ($)."
+
+    },
+    "contacto": {
+        "title": "Contacto",
+        "text": "Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.",
+        "btn_enviar": "Enviar"
+    }
+}

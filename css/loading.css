@@ -30,7 +30,7 @@ html {
 }
 
 .load {
-    color: var(--magenta);
+    color: var(--me);
     font-size: 13px;
     position: relative;
     animation-delay: -0.16s;

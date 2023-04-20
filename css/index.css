@@ -201,6 +201,7 @@ main{
     font-size: 1.7rem;
     letter-spacing: 1.1px;
     line-height: 2rem;
+    text-align: justify;
 }
 
 .container_button {

@@ -1,0 +1,57 @@
+{
+    "menu": {
+        "item2": "About me",
+        "item3": "Skills",
+        "item4": "Education",
+        "item5": "Projects",
+        "item6": "Contact"
+    },
+    "home": {
+        "home_text_1": "Hi! I'm",
+        "home_text_3": "Data Scientist & <br> Front-end Developer",
+        "parrafo_info": "Renewable Energy Engineer, specialized in alternative sources for electricity generation, and currently preparing to be a Data Scientist and Front-End Developer. Passionate about solving mysteries and enigmas through patterns, data,and graphics.",
+        "cv_button": "Download CV",
+        "contact_button": "Contact"
+    },
+    "sobre_mi": {
+        "title": "About me",
+        "texto_sobre_mi": "I am a Renewable Energy Engineer and future Data Scientist. I am always looking to improve myself and learn more, which is why I have taken courses in Data Analysis, Front-End Development, and Project Management. <br> <br> I´m a creative, self-taugh, and perceptive person, who likes to find creative solutions to the environment problems. Reason for that I have participated in scientific research summers, and projects related to sustainability and inclusion."  
+    },
+    "habilidades": {
+        "title": "Skills"
+    },
+    "formacion": {
+        "title": "Education",
+        "formacion_1": "Master in Data Science/AI",
+        "tiempo-formacion_1": "2022 - 2023",
+        "formacion_2": "Full-Stack Developerk",
+        "tiempo-formacion_2": "2022 - 2023",
+        "formacion_3": "Tecnolochicas PRO",
+        "tiempo-formacion_3": "2023",
+        "formacion_4":"Crece con Google Mujeres en STEM",
+        "tiempo-formacion_4":"2022",
+        "formacion_5":"Renewable Energy Engineering",
+        "tiempo-formacion_5":"2017-2021",
+        "insignia":"Badges"
+    },
+    "proyectos": {
+        "title": "Projects",
+        "title_proyecto_1": "HangMan Game: Cowboys",
+        "info_proyecto_1": "Game where the user must guess the secret word before the cowboy is on the gallows, the option to add new words is included.",
+        "title_proyecto_2": "Olimpo´s bookstore",
+        "info_proyecto_2": "Olimpo bookstore website: Discover new worlds in books; in which the reader can see the product catalog as well as its location.",
+        "title_proyecto_3": "Encrypter",
+        "info_proyecto_3": "Application that encrypts texts, to be able to exchange secret messages with other people who know the secret code.",
+        "title_proyecto_4": "ML: Sushi restaurant",
+        "info_proyecto_4": "Determination of the ideal location for a sushi restaurant in Culiacán, Sinaloa through unsupervised ML modeling.",
+        "title_proyecto_5": "Sirius Major Access",
+        "info_proyecto_5": "BBVA's new mobile application model accessible to everyone's needs with the implementation of a single token for authentication. Work presented at the BBVA Hackathon 2022.",
+        "title_proyecto_6": "Forbes Athletes Analysis",
+        "info_proyecto_6": "Analysis of the highest paid athletes in the world in the period from 1990 to 2020 by nationality, sport and monetary earnings ($)."
+},
+    "contacto": {
+        "title": "Contact",
+        "text": "Complete the form below and I will contact you as soon as possible.",
+        "btn_enviar": "Send"
+    }
+}

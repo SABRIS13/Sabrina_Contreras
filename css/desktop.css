@@ -97,6 +97,7 @@ nav.nav_menu.active a {
 
 nav.nav_menu.active a:hover {
     color: var(--lavanda);
+    font-weight: bold;
     background-color: var(--gris);
     transition: all .4s;
 }
