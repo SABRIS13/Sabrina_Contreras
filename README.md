@@ -1,10 +1,10 @@
 # Sabrina Contreras
 **¡Hola a todos!** <br>
-Bienvenidos al repositorio de mi portafolio profesional, el cual incluye mi trayectoria educativa, las habilidades que domino y mis credenciales. Tambien podrán conocer mis proyectos personales de Front-End y Ánalisis de datos, y acceder directamente a ellos. <br>
+Bienvenidos al repositorio de mi portafolio profesional, el cual incluye mi trayectoria educativa, así como las habilidades y credenciales que posseo. También podrán conocer los proyectos que he desarrollado en Front-End y Ánalisis, así como de datos acceder directamente a ellos. <br>
 
 ![image](https://github.com/SABRIS13/Sabrina_Contreras/assets/101822315/e399cba9-649d-48b9-b8ed-d99adc5c7cb8)
 
-Tambien se incluye la opción de ponerse en contacto conmigo a traves de **correo electronico** o demás **redes sociales**, como linkedin.
+De igual forma se incluye una sección de: **Contacto**, en la cual puedes enviarme un **correo electronico** y conocer mis **redes sociales**, como LinkedIn.
 
 ## Secciones
 
@@ -13,9 +13,9 @@ Este proyecto fue creado usando **HTML5**, **CSS3** y **JavaScript**, e incluye 
 ```
 - Menú de navegación con cambio de idioma 
 - Enlaces a redes sociales
-- Apartado de sobre mí
+- Apartado sobre mí
 - Habilidades técnicas
-- Formación educativa con insignia
+- Formación educativa con insignias
 - Proyectos personales
 - Contacto de correo eléctronico
 ```
